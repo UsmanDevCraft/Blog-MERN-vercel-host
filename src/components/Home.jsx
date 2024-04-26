@@ -6,7 +6,7 @@ const Home = () => {
     <div className='container padding-home'>
     
     <div className="container d-flex justify-content-center align-items-center">
-        <img src="/canva_blog_front_01.png" className="home-img" alt="..."></img>
+        <img src="/canva_blog_front_01.png" className="home-img-only" alt="..."></img>
     </div>
 
     <div className="container padding-home pb-5">
@@ -19,7 +19,7 @@ const Home = () => {
     </div>
 
     <div className="container d-flex justify-content-center align-items-center">
-        <div className="card w-75 mb-3 card-bg-color">
+        <div className="card w-85 mb-3 card-bg-color">
             <div className="card-body">
                 <h3 className="card-title">Table of contents</h3>
                 <a href="#intro" className='a-tag-card card-text fs-4 lh-lg'><p className="card-text fs-4">Introduction</p></a>

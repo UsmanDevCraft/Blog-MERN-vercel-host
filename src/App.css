@@ -12,6 +12,10 @@ section{
   width: 80%;
   height: 80vh;
 }
+.home-img-only{
+  width: 80%;
+  height: 80vh;
+}
 .padding-home{
   padding-top: 35px;
 }
@@ -27,4 +31,87 @@ section{
 .a-tag-card{
   text-decoration: none;
   color: #ffffff;
+}
+
+
+/* Screen media when screen is less than 768 px - images only */
+@media screen and (max-width: 768px) {
+  .img-topleft{
+    height: 50vh;
+    scale: 3;
+    transform-origin: top left !important
+  }
+  .img-center-scale{
+    scale: 2;
+    transform-origin: center !important
+  }
+  .scale-img-topright{
+    scale: 2;
+    transform-origin: top right !important
+  }
+  .image-cen-small{
+    scale: 2;
+    transform-origin: center !important
+  }
+  .vercel_code{
+    scale: 1.2;
+    transform-origin: center;
+    height: 40vh;
+    width: 100%;
+  }
+  .scale-top-only{
+    scale: 2;
+    transform-origin: top;
+  }
+  .home-img{
+    height: 50vh;
+  }
+  .container{
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-img-only{
+    height: 60vh;
+  }
+}
+
+
+/* Applying the cool hover effects */
+@media screen and (min-width: 789px) {
+  .img-topleft:hover{
+    height: 50vh;
+    transition: 3s;
+    scale: 3;
+    transform-origin: top left !important
+  }
+  .img-center-scale:hover{
+    scale: 2;
+    transition: 3s;
+    transform-origin: center !important
+  }
+  .image-cen-small:hover{
+    scale: 2;
+    transition: 3s;
+    transform-origin: center !important
+  }
+  .scale-img-topright:hover{
+    scale: 2;
+    transition: 3s;
+    transform-origin: top right !important
+  }
+  .vercel_code:hover{
+    scale: 1.2;
+    transition: 3s;
+    transform-origin: center;
+  }
+  .scale-top-only:hover{
+    scale: 2;
+    transition: 3s;
+    transform-origin: top;
+  }
+  .container{
+    overflow: hidden;
+  }
 }
